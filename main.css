@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(192, 152, 192);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+#number {
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+#submit {
+    text-align: center;
+    margin: 0% 45% 0% 45%;
+    display: block;
+    background-color: rgb(70, 148, 70);
+    padding: 10px;
+    border: 3px solid purple;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+}

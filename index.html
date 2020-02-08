@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess a Number</title>
+        <link rel="stylesheet" href="main.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Guess a Number</h1>
+        <p>I'm thinking of a number between 1 and 100. Type in a number to see if you can guess what the number is!</p>
+        <form>
+            <input type="text" id="number" name="inputbox" value="" placeholder="Type your guess here!"></input>
+            <br>
+            <div onclick="guessNum()" name="button" value="Submit" id="submit">Submit</div>
+            <p id="result"></p>
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>
